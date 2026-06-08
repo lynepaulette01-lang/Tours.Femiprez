@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Booking - Femiprez Tours</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Femiprez Tours</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="safari.html">Safari</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="page-header">
+        <h1>Contact Us & Book Your Adventure</h1>
+        <p>Get in Touch and Start Planning Your African Safari Today</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+254 713437887</p>
+                            <p>+254 706865440</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>tours.femiprez@gmail.com</p>
+                            
+                        </div>
+                    </div>
+                    
+
+                <!-- Booking Form -->
+                <div class="booking-form-container">
+                    <h2>Quick Booking Form</h2>
+                    <form id="bookingForm" class="booking-form" action="submit_booking.php" method="post">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Your Full Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="your@email.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="+254 7XX XXX XXX">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="destination">Destination *</label>
+                            <select id="destination" name="destination" required>
+                                <option value="">Select a Destination</option>
+                                <option value="maasai-mara">Maasai Mara National Reserve</option>
+                                <option value="amboseli">Amboseli National Park</option>
+                                <option value="tsavo">Tsavo National Park</option>
+                                <option value="diani">Diani Beach</option>
+                                <option value="malindi">Malindi Beach</option>
+                                <option value="watamu">Watamu Beach</option>
+                                <option value="mount-kenya">Mount Kenya</option>
+                                <option value="combined">Combined Destinations</option>
+                                <option value="custom">Custom Itinerary</option>
+                            </select>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="adults">Number of Adults *</label>
+                                <input type="number" id="adults" name="adults" min="1" required placeholder="1">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="children">Number of Children</label>
+                                <input type="number" id="children" name="children" min="0" placeholder="0">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="date">Preferred Travel Date *</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="duration">Duration (Days) *</label>
+                            <select id="duration" name="duration" required>
+                                <option value="">Select Duration</option>
+                                <option value="2">2 Days</option>
+                                <option value="3">3 Days</option>
+                                <option value="4">4 Days</option>
+                                <option value="5">5 Days</option>
+                                <option value="6">6 Days</option>
+                                <option value="7">7 Days</option>
+                                <option value="8">8 Days</option>
+                                <option value="10">10+ Days</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="accommodation">Accommodation Preference</label>
+                            <select id="accommodation" name="accommodation">
+                                <option value="">Select Preference</option>
+                                <option value="luxury">Luxury Lodge</option>
+                                <option value="mid-range">Mid-Range Lodge</option>
+                                <option value="budget">Budget Camp</option>
+                                <option value="tented">Tented Camp</option>
+                                <option value="flexible">Flexible/Open</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="interests">Special Interests</label>
+                            <textarea id="interests" name="interests" placeholder="e.g., Wildlife photography, birdwatching, cultural experiences..." rows="3"></textarea>
+                        </div>
+
+                        
+
+                        <button type="submit" class="btn btn-primary" aria-label="Submit Booking Request">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Submit Booking Request</span>
+                        </button>
+                        <p class="form-note">* Required fields. We'll respond to your booking request within 24 hours.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Femiprez Tours</h3>
+                    <p>Creating unforgettable African safari and travel experiences.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="packages.html">Packages</a></li>
+                        <li><a href="safari.html">Safari</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>tours.femiprez@gmail.com</p>
+                    <p>Phone: +254 713437887 or   +254 706865440</p>
+                    
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Femiprez Tours. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
