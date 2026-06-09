@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body>
+<body class="page-destinations">
     <nav class="navbar">
         <div class="container">
             <div class="logo">
@@ -44,142 +44,155 @@
                 <button class="filter-btn" data-filter="adventure">Adventure</button>
             </div>
 
-            <div class="destinations-grid">
-                <!-- Safari Parks -->
-                <div class="destination-card safari">
-                    <div class="dest-image maasai-mara-img"></div>
-                    <div class="dest-content">
-                        <h3>Maasai Mara National Reserve</h3>
-                        <p class="location"><i class="fas fa-map-marker-alt"></i> Kenya</p>
-                        <p>Experience the legendary Great Migration and observe the Big Five in this world-renowned wildlife reserve. Guided tours provide intimate wildlife encounters.</p>
-                        <ul class="highlights">
-                            <li>Big Five Viewing</li>
-                            <li>Great Migration</li>
-                            <li>Guided Game Drives</li>
-                        </ul>
-                        <a href="safari.html" class="card-link">Book Safari</a>
+            <!-- Safari Parks Section -->
+            <div class="destinations-category safari-category" data-category="safari">
+                <h2 id="safari-section">Safari Parks</h2>
+                <div class="destinations-grid">
+                    <div class="destination-card safari">
+                        <div class="dest-image maasai-mara-img"></div>
+                        <div class="dest-content">
+                            <h3>Maasai Mara National Reserve</h3>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Kenya</p>
+                            <p>Experience the legendary Great Migration and observe the Big Five in this world-renowned wildlife reserve. Guided tours provide intimate wildlife encounters.</p>
+                            <ul class="highlights">
+                                <li>Big Five Viewing</li>
+                                <li>Great Migration</li>
+                                <li>Guided Game Drives</li>
+                            </ul>
+                            <a href="safari.html" class="card-link">Book Safari</a>
+                        </div>
+                    </div>
+
+                    <div class="destination-card safari">
+                        <div class="dest-image amboseli-img"></div>
+                        <div class="dest-content">
+                            <h3>Amboseli National Park</h3>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Kenya</p>
+                            <p>Home to large herds of elephants with stunning views of Mount Kilimanjaro. Perfect for wildlife photography and close encounters with Africa's largest land mammals.</p>
+                            <ul class="highlights">
+                                <li>Elephant Herds</li>
+                                <li>Kilimanjaro Views</li>
+                                <li>Photography Tours</li>
+                            </ul>
+                            <a href="safari.html" class="card-link">Book Safari</a>
+                        </div>
+                    </div>
+
+                    <div class="destination-card safari">
+                        <div class="dest-image tsavo-img"></div>
+                        <div class="dest-content">
+                            <h3>Tsavo National Park</h3>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Kenya</p>
+                            <p>Kenya's largest national park offering diverse landscapes and abundant wildlife. Explore red dust plains and discover numerous animal species in their natural habitat.</p>
+                            <ul class="highlights">
+                                <li>Diverse Wildlife</li>
+                                <li>Scenic Landscapes</li>
+                                <li>Luxury Lodges</li>
+                            </ul>
+                            <a href="safari.html" class="card-link">Book Safari</a>
+                        </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="destination-card safari">
-                    <div class="dest-image amboseli-img"></div>
-                    <div class="dest-content">
-                        <h3>Amboseli National Park</h3>
-                        <p class="location"><i class="fas fa-map-marker-alt"></i> Kenya</p>
-                        <p>Home to large herds of elephants with stunning views of Mount Kilimanjaro. Perfect for wildlife photography and close encounters with Africa's largest land mammals.</p>
-                        <ul class="highlights">
-                            <li>Elephant Herds</li>
-                            <li>Kilimanjaro Views</li>
-                            <li>Photography Tours</li>
-                        </ul>
-                        <a href="safari.html" class="card-link">Book Safari</a>
+            <!-- Beach Destinations Section -->
+            <div class="destinations-category beach-category" data-category="beach">
+                <h2 id="beach-section">Beach Destinations</h2>
+                <div class="destinations-grid">
+                    <div class="destination-card beach">
+                        <div class="dest-image diani-img"></div>
+                        <div class="dest-content">
+                            <h3>Diani Beach</h3>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Coastal Kenya</p>
+                            <p>Pristine white sand beaches with crystal-clear waters. Enjoy water sports, marine park explorations, and vibrant beach resorts with world-class amenities.</p>
+                            <ul class="highlights">
+                                <li>Water Sports</li>
+                                <li>Marine Parks</li>
+                                <li>Luxury Resorts</li>
+                            </ul>
+                            <a href="packages.html" class="card-link">Book Package</a>
+                        </div>
+                    </div>
+
+                    <div class="destination-card beach">
+                        <div class="dest-image malindi-img"></div>
+                        <div class="dest-content">
+                            <h3>Malindi Beach</h3>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Coastal Kenya</p>
+                            <p>Historic coastal town with beautiful beaches, coral reefs, and water sports facilities. Explore the marine life and enjoy fresh seafood by the shore.</p>
+                            <ul class="highlights">
+                                <li>Coral Reefs</li>
+                                <li>Historical Sites</li>
+                                <li>Diving & Snorkeling</li>
+                            </ul>
+                            <a href="packages.html" class="card-link">Book Package</a>
+                        </div>
+                    </div>
+
+                    <div class="destination-card beach">
+                        <div class="dest-image watamu-img"></div>
+                        <div class="dest-content">
+                            <h3>Watamu Beach</h3>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Coastal Kenya</p>
+                            <p>Charming beach village known for its beautiful beaches and marine sanctuary. Perfect for snorkeling, diving, and relaxing in a serene tropical setting.</p>
+                            <ul class="highlights">
+                                <li>Marine Sanctuary</li>
+                                <li>Snorkeling</li>
+                                <li>Peaceful Beaches</li>
+                            </ul>
+                            <a href="packages.html" class="card-link">Book Package</a>
+                        </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="destination-card safari">
-                    <div class="dest-image tsavo-img"></div>
-                    <div class="dest-content">
-                        <h3>Tsavo National Park</h3>
-                        <p class="location"><i class="fas fa-map-marker-alt"></i> Kenya</p>
-                        <p>Kenya's largest national park offering diverse landscapes and abundant wildlife. Explore red dust plains and discover numerous animal species in their natural habitat.</p>
-                        <ul class="highlights">
-                            <li>Diverse Wildlife</li>
-                            <li>Scenic Landscapes</li>
-                            <li>Luxury Lodges</li>
-                        </ul>
-                        <a href="safari.html" class="card-link">Book Safari</a>
+            <!-- Adventure Destinations Section -->
+            <div class="destinations-category adventure-category" data-category="adventure">
+                <h2 id="adventure-section">Adventure</h2>
+                <div class="destinations-grid">
+                    <div class="destination-card adventure">
+                        <div class="dest-image mount-kenya-img"></div>
+                        <div class="dest-content">
+                            <h3>Mount Kenya</h3>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Central Kenya</p>
+                            <p>Africa's second-highest mountain offering thrilling climbing expeditions. Navigate stunning alpine landscapes and test your limits on this iconic peak.</p>
+                            <ul class="highlights">
+                                <li>Mountain Climbing</li>
+                                <li>Alpine Scenery</li>
+                                <li>Expert Guides</li>
+                            </ul>
+                            <a href="packages.html" class="card-link">Book Package</a>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Beach Destinations -->
-                <div class="destination-card beach">
-                    <div class="dest-image diani-img"></div>
-                    <div class="dest-content">
-                        <h3>Diani Beach</h3>
-                        <p class="location"><i class="fas fa-map-marker-alt"></i> Coastal Kenya</p>
-                        <p>Pristine white sand beaches with crystal-clear waters. Enjoy water sports, marine park explorations, and vibrant beach resorts with world-class amenities.</p>
-                        <ul class="highlights">
-                            <li>Water Sports</li>
-                            <li>Marine Parks</li>
-                            <li>Luxury Resorts</li>
-                        </ul>
-                        <a href="packages.html" class="card-link">Book Package</a>
+                    <div class="destination-card adventure">
+                        <div class="dest-image savannah-img"></div>
+                        <div class="dest-content">
+                            <h3>Savannah Hot Air Balloon</h3>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Kenya</p>
+                            <p>Experience breathtaking aerial views of the African savannah. Float peacefully above wildlife and dramatic landscapes for an unforgettable perspective.</p>
+                            <ul class="highlights">
+                                <li>Aerial Views</li>
+                                <li>Wildlife Viewing</li>
+                                <li>Sunrise Flights</li>
+                            </ul>
+                            <a href="packages.html" class="card-link">Book Package</a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="destination-card beach">
-                    <div class="dest-image malindi-img"></div>
-                    <div class="dest-content">
-                        <h3>Malindi Beach</h3>
-                        <p class="location"><i class="fas fa-map-marker-alt"></i> Coastal Kenya</p>
-                        <p>Historic coastal town with beautiful beaches, coral reefs, and water sports facilities. Explore the marine life and enjoy fresh seafood by the shore.</p>
-                        <ul class="highlights">
-                            <li>Coral Reefs</li>
-                            <li>Historical Sites</li>
-                            <li>Diving & Snorkeling</li>
-                        </ul>
-                        <a href="packages.html" class="card-link">Book Package</a>
-                    </div>
-                </div>
-
-                <div class="destination-card beach">
-                    <div class="dest-image watamu-img"></div>
-                    <div class="dest-content">
-                        <h3>Watamu Beach</h3>
-                        <p class="location"><i class="fas fa-map-marker-alt"></i> Coastal Kenya</p>
-                        <p>Charming beach village known for its beautiful beaches and marine sanctuary. Perfect for snorkeling, diving, and relaxing in a serene tropical setting.</p>
-                        <ul class="highlights">
-                            <li>Marine Sanctuary</li>
-                            <li>Snorkeling</li>
-                            <li>Peaceful Beaches</li>
-                        </ul>
-                        <a href="packages.html" class="card-link">Book Package</a>
-                    </div>
-                </div>
-
-                <!-- Adventure Destinations -->
-                <div class="destination-card adventure">
-                    <div class="dest-image mount-kenya-img"></div>
-                    <div class="dest-content">
-                        <h3>Mount Kenya</h3>
-                        <p class="location"><i class="fas fa-map-marker-alt"></i> Central Kenya</p>
-                        <p>Africa's second-highest mountain offering thrilling climbing expeditions. Navigate stunning alpine landscapes and test your limits on this iconic peak.</p>
-                        <ul class="highlights">
-                            <li>Mountain Climbing</li>
-                            <li>Alpine Scenery</li>
-                            <li>Expert Guides</li>
-                        </ul>
-                        <a href="packages.html" class="card-link">Book Package</a>
-                    </div>
-                </div>
-
-                <div class="destination-card adventure">
-                    <div class="dest-image savannah-img"></div>
-                    <div class="dest-content">
-                        <h3>Savannah Hot Air Balloon</h3>
-                        <p class="location"><i class="fas fa-map-marker-alt"></i> Kenya</p>
-                        <p>Experience breathtaking aerial views of the African savannah. Float peacefully above wildlife and dramatic landscapes for an unforgettable perspective.</p>
-                        <ul class="highlights">
-                            <li>Aerial Views</li>
-                            <li>Wildlife Viewing</li>
-                            <li>Sunrise Flights</li>
-                        </ul>
-                        <a href="packages.html" class="card-link">Book Package</a>
-                    </div>
-                </div>
-
-                <div class="destination-card adventure">
-                    <div class="dest-image diving-img"></div>
-                    <div class="dest-content">
-                        <h3>Marine Diving & Snorkeling</h3>
-                        <p class="location"><i class="fas fa-map-marker-alt"></i> Coastal Kenya</p>
-                        <p>Explore vibrant coral reefs and marine ecosystems. Discover colorful fish, sea turtles, and other marine life in some of East Africa's richest waters.</p>
-                        <ul class="highlights">
-                            <li>Coral Reefs</li>
-                            <li>Marine Life</li>
-                            <li>All Skill Levels</li>
-                        </ul>
-                        <a href="packages.html" class="card-link">Book Package</a>
+                    <div class="destination-card adventure">
+                        <div class="dest-image diving-img"></div>
+                        <div class="dest-content">
+                            <h3>Marine Diving & Snorkeling</h3>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Coastal Kenya</p>
+                            <p>Explore vibrant coral reefs and marine ecosystems. Discover colorful fish, sea turtles, and other marine life in some of East Africa's richest waters.</p>
+                            <ul class="highlights">
+                                <li>Coral Reefs</li>
+                                <li>Marine Life</li>
+                                <li>All Skill Levels</li>
+                            </ul>
+                            <a href="packages.html" class="card-link">Book Package</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -212,10 +225,10 @@
                 <div class="footer-section">
                     <h3>Follow Us</h3>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.facebook.com/femiprez.tours" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://x.com/femiprez" target="_blank" rel="noopener noreferrer" aria-label="x"><i class="fab fa-x"></i></a>
+                        <a href="https://www.instagram.com/femiprez.tours" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@femiprez.tours" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
                     </div>
                 </div>
             </div>
