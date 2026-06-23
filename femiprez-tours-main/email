@@ -1,0 +1,9 @@
+
+<?php
+$headers = "From: $full_name <$email_address>" . "\r\n";
+    $headers .= "Reply-To: $email_address" . "\r\n";
+
+    $sent = false;
+    if (function_exists('mail')) {
+        $sent = mail($recipient, $subject, $message, $headers);
+    }

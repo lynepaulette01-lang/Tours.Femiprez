@@ -109,6 +109,13 @@ textarea {
     gap: 0.75rem;
 }
 
+.logo img {
+    max-height: 50px;
+    width: auto;
+    display: block;
+    border-radius: 6px;
+}
+
 .logo h1 {
     font-size: 1.35rem;
     letter-spacing: 0.05em;
@@ -521,12 +528,12 @@ section p,
     font-size: 1.1rem;
 }
 
-.safari-img { background: linear-gradient(135deg, #7b5c41 0%, #c49b45 100%); }
-.beach-img { background: linear-gradient(135deg, #ff8d51 0%, #fed16b 100%); }
-.adventure-img { background: linear-gradient(135deg, #1f4c7a 0%, #2d5b8f 100%); }
-.culture-img { background: linear-gradient(135deg, #bb6b5b 0%, #f8c8aa 100%); }
-.luxury-img { background: linear-gradient(135deg, #4b4f9c 0%, #7e7cd7 100%); }
-.conservation-img { background: linear-gradient(135deg, #5d4535 0%, #a78a59 100%); }
+.safari-img { background: url('../Images/Wildlife safaris.jfif') center/cover no-repeat; }
+.beach-img { background: url('../Images/beach holidays.jfif') center/cover no-repeat; }
+.adventure-img { background: url('../Images/adventure activities.jfif') center/cover no-repeat; }
+.culture-img { background: url('../Images/cultural experience.jfif') center/cover no-repeat; }
+.luxury-img { background: url('../Images/luxury safari.jfif') center/cover no-repeat; }
+.conservation-img { background: url('../Images/conservation tours.jfif') center/cover no-repeat; }
 
 .maasai-mara-img { background: linear-gradient(135deg, #7b5c41 0%, #b59051 100%); }
 .amboseli-img { background: linear-gradient(135deg, #2e5d4d 0%, #7fb89e 100%); }
@@ -700,14 +707,14 @@ section p,
     background-position: center;
 }
 
-.wildlife-img { background: linear-gradient(135deg, #213c4d 0%, #477b75 100%); }
-.luxury-safari-img { background: linear-gradient(135deg, #3c3e6d 0%, #8f7ce6 100%); }
-.conservation-safari-img { background: linear-gradient(135deg, #5d4535 0%, #a78a59 100%); }
-.photo-safari-img { background: linear-gradient(135deg, #3f4f8a 0%, #97b6db 100%); }
-.birdwatch-img { background: linear-gradient(135deg, #1b4b78 0%, #7da5d6 100%); }
-.culinary-img { background: linear-gradient(135deg, #bc6847 0%, #f4a986 100%); }
-.family-safari-img { background: linear-gradient(135deg, #3f6243 0%, #95bf8e 100%); }
-.group-safari-img { background: linear-gradient(135deg, #37536e 0%, #78a9c8 100%); }
+.wildlife-img { background: url('../Images/Wildlife safaris.jfif'); background-size: cover; background-position: center; }
+.luxury-safari-img { background: url('../Images/Luxury safaris.jfif'); background-size: cover; background-position: center; }
+.conservation-safari-img { background: url('../Images/Amboseli national park.jfif'); background-size: cover; background-position: center; }
+.photo-safari-img { background: url('../Images/Photogrphy sfari.jfif'); background-size: cover; background-position: center; }
+.birdwatch-img { background: url('../Images/Birdwatching safari.jfif'); background-size: cover; background-position: center; }
+.culinary-img { background: url('../Images/Culinary safari.jfif'); background-size: cover; background-position: center; }
+.family-safari-img { background: url('../Images/Family safari.jfif'); background-size: cover; background-position: center; }
+.group-safari-img { background: url('../Images/Group safari.jfif'); background-size: cover; background-position: center; }
 
 .contact-grid {
     grid-template-columns: 1fr 1.15fr;
