@@ -528,12 +528,12 @@ section p,
     font-size: 1.1rem;
 }
 
-.safari-img { background: url('../Images/Wildlife safaris.jfif') center/cover no-repeat; }
-.beach-img { background: url('../Images/beach holidays.jfif') center/cover no-repeat; }
-.adventure-img { background: url('../Images/adventure activities.jfif') center/cover no-repeat; }
-.culture-img { background: url('../Images/cultural experience.jfif') center/cover no-repeat; }
-.luxury-img { background: url('../Images/luxury safari.jfif') center/cover no-repeat; }
-.conservation-img { background: url('../Images/conservation tours.jfif') center/cover no-repeat; }
+.safari-img { background: url('../Images/Wildlife Safari.jpg') center/cover no-repeat; }
+.beach-img { background: url('../Images/Beach Holiday.jpg') center/cover no-repeat; }
+.adventure-img { background: url('../Images/Adventure Activities.jpg') center/cover no-repeat; }
+.culture-img { background: url('../Images/Cultural Experince.jpg') center/cover no-repeat; }
+.luxury-img { background: url('../Images/luxury Safari.jpg') center/cover no-repeat; }
+.conservation-img { background: url('../Images/Conservation Tours.jpg') center/cover no-repeat; }
 
 .maasai-mara-img { background: linear-gradient(135deg, #7b5c41 0%, #b59051 100%); }
 .amboseli-img { background: linear-gradient(135deg, #2e5d4d 0%, #7fb89e 100%); }
