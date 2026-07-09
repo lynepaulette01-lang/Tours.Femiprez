@@ -707,14 +707,14 @@ section p,
     background-position: center;
 }
 
-.wildlife-img { background: url('../Images/Wildlife safaris.jfif'); background-size: cover; background-position: center; }
-.luxury-safari-img { background: url('../Images/Luxury safaris.jfif'); background-size: cover; background-position: center; }
-.conservation-safari-img { background: url('../Images/Amboseli national park.jfif'); background-size: cover; background-position: center; }
-.photo-safari-img { background: url('../Images/Photogrphy sfari.jfif'); background-size: cover; background-position: center; }
-.birdwatch-img { background: url('../Images/Birdwatching safari.jfif'); background-size: cover; background-position: center; }
-.culinary-img { background: url('../Images/Culinary safari.jfif'); background-size: cover; background-position: center; }
-.family-safari-img { background: url('../Images/Family safari.jfif'); background-size: cover; background-position: center; }
-.group-safari-img { background: url('../Images/Group safari.jfif'); background-size: cover; background-position: center; }
+.wildlife-img { background: url('../Images/Wildlife Safari.jpg'); background-size: cover; background-position: center; }
+.luxury-safari-img { background: url('../Images/luxury Safari.jpg'); background-size: cover; background-position: center; }
+.conservation-safari-img { background: url('../Images/Conservation Tours.jpg'); background-size: cover; background-position: center; }
+.photo-safari-img { background: url('../Images/Photography Safari.jpg'); background-size: cover; background-position: center; }
+.birdwatch-img { background: url('../Images/Birdwatching Safari.jpg'); background-size: cover; background-position: center; }
+.culinary-img { background: url('../Images/Culinary Safari.jpg'); background-size: cover; background-position: center; }
+.family-safari-img { background: url('../Images/Family Safari.jpg'); background-size: cover; background-position: center; }
+.group-safari-img { background: url('../Images/Group Safari.jpg'); background-size: cover; background-position: center; }
 
 .contact-grid {
     grid-template-columns: 1fr 1.15fr;
